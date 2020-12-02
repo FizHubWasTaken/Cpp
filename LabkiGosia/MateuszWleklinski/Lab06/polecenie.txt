@@ -1,0 +1,14 @@
+Proszę utworzyć:
+  1. szablon funkcji ze zmienną liczbą parametrów, zakładając, że wszystkie parametry są tego samego typu proszę zwrócić z szablonu ich sumę (2p)
+  Test: dla różnej liczby wartości typu rzeczywistego
+
+  2. szablon funkcji zwracającej w zależności od wartości przekazanego parametru różne funkcje: lambda przyjmująca dwa parametry i zwracająca wartość, np. suma (zwracana funkcja domyślna), iloczyn, potęga (2p)
+
+  3. szablon funkcji zwracającej liczbę f(f(f(f(i, j), k), m), ...), gdzie f jest dowolną funkcją przyjmującą dwa argumenty tego samego typu i zwracającą wartość tego samego typu co jej parametry, a i,j,k,m, ... wartościami w kolejnych komórkach tablicy (2p)
+  Test: dla tablicy 1D wartości typu całkowitego z wykorzystaniem szablonu z pkt 2
+
+  4. szablon funkcji przyjmującej jako parametry tablicę wartości oraz tablicę wzorców (o takich samych długościach), z szablonu proszę zwrócić tablicę zawierającą te elementy tablicy wartości, dla których odpowiadający im element w tablicy wzorców ma wartość logiczną prawdy (2p)
+  Test: tablica wybranego przez Państwa typu, tablica int lub bool
+
+  5. szablon funkcji ze zmienną liczba parametrów potencjalnie różnych typów zwracający wartość maksymalną (2p)
+  Test: dla różnej liczby wartości typu całkowitego i rzeczywistego

@@ -1,0 +1,16 @@
+Proszę utworzyć
+
+szablon funkcji wypisującej tablicę jednowymiarową na ekran (0.5p)
+szablon funkcji zamieniającej wartości dwóch zmiennych tego samego typu (proszę wykorzystać referencje) (1p)
+szablon funkcji odwracającej tablicę jednowymiarową w miejscu (1p)
+szablon funkcji sprawdzającej czy wartości zapisane w tablicy jednowymiarowej tworzą palindrom (1p)
+szablon funkcji modyfikującej wartości tablicy poprzez wywołanie na każdym elemencie funkcji przekazanej do szablonu przez wskaźnik, wyniki zapisujemy w tablicy przekazanej jako parametr (nie tworzymy tablicy tymczasowej) (1p)
+szablon funkcji filtrującej wartości w tablicy spełniające określony warunek (funkcja zwracająca wartość logiczną przekazana do szablonu przez wskaźnik), wyniki zapisujemy w tablicy przekazanej jako parametr (nie tworzymy tablicy tymczasowej), funkcja zwraca liczbę elementów spełniających warunek (2p)
+szablon funkcji rozdzielającej wartości w tablicy na spełniające i nie spełniające określonego warunku (funkcja zwracająca wartość logiczną przekazana do szablonu przez wskaźnik), wyniki zapisujemy w tablicy przekazanej jako parametr, funkcja zwraca liczbę elementów spełniających warunek (2p)
+
+Funkcja main:
+
+do wypisywania tablic proszę użyć zaimplementowanego szablonu (0.25)
+test odwrócenia tablicy: tablica losowych wartości całkowitych oraz losowych wartości rzeczywistych (0.25p)
+test palindromu: tablica znakowa (0.25p)
+test pozostałych trzech szablonów na tablicach liczbowych (3x0.25p)

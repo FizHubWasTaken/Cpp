@@ -1,0 +1,19 @@
+//tablica 1D o rozmiarze N wypełniona zerami
+int* tab=new int[N]{};
+...
+delete [] tab;
+//tablica 2D o rozmiarze N wypełniona zerami
+int** tab=new int*[N];
+for(int i=0;i<N;i++)
+	tab[i]=new int[N]{};
+...
+for(int i=0; i<N; i++)
+    delete [] tab[i];
+delete [] tab;
+Proszę utworzyć tablicę 1D o rozmiarze 1e6 losowych wartości całkowitych z zakresu [0,10000), a następnie histogram sumy cyfr wylosowanych wartości oraz histogram pokazujący ile spośród wylosowanych wartości było liczbami jedno-, dwu- itd. cyfrowymi.
+Proszę utworzyć tablicę 2D (kwadratową) liczb całkowitych wypełnioną zerami, a następnie proszę umieścić jedynki:
+w kwadracie o boku mniejszym od rozmiaru tablicy na jej środku
+na przekątnej od lewego górnego rogu do prawego dolnego
+na przekątnej od prawego górnego rogu do lewego dolnego
+na obu przekątnych
+w szachownicę

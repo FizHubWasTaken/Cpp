@@ -1,0 +1,15 @@
+1. Klasa, a w niej:
+  a. konstruktor, inicjalizujący stan, tj, zmienne a=444485709377909, x0(ziarno), c=0, m=248 (1p)
+  b. przeciążoną metodę zwracającą kolejną całkowitą liczbę losową (0.5p)
+  c. przeciążoną metodę zwracającą kolejną całkowitą liczbę losową z określonego zakresu (1p)
+  d. przeciążoną metodę zwracającą kolejną rzeczywistą liczbę losową z zakresu [0,1) (1p)
+  e. przeciążoną metodę zwracającą kolejną rzeczywistą liczbę losową z określonego zakresu (0.5p)
+2. Funkcje wykorzystujące wcześniej utworzoną klasę:
+﻿  a. ﻿﻿﻿﻿﻿﻿tworzącą histogram liczby cyfr n wylosowanych wartości całkowitych z całego, a następnie określonego zakresu (1.5p)
+  b. obliczającą procent trafień w kwadraty o bokach [1,10] dla n wylosowanych wartości rzeczywistych z przedziału [0,10] (1.5p)
+  c. obliczającą wartość liczby pi metodą Monte-Carlo, w tym celu losujemy n punktów w kwadracie o boku 2 i środku w początku układu współrzędnych i zliczamy ile spośród wylosowanych punktów leży wewnątrz koła o promieniu 1, ze stosunku liczby zliczeń wewnątrz koła do wszystkich trafień oraz pól możemy wyznaczyć wartość liczby pi
+  d. obliczającą całkę oznaczoną funkcji, przekazanej jako parametr, metodą Monte-Carlo: losujemy n punktów znajdujących się w obrębie prostokąta ograniczającego funkcję w granicach całkowania. Wprowadzamy zmienną pomocniczą c, którą modyfikować będziemy następująco:
+    jeżeli wylosowany punkt (xi, yi) leży nad osią OX i jednocześnie pod wykresem funkcji całkowanej, czyli spełnia nierówność: 0 < yi ≤ f(xi), wówczas zwiększamy zmienną c o jeden,
+    jeżeli wylosowany punkt (xi, yi) leży pod osią OX i jednocześnie nad wykresem funkcji całkowanej, czyli spełnia nierówność: 0 > yi ≥ f(xi), wówczas zmniejszamy zmienną c o jeden,
+    jeżeli wylosowany punkt (xi, yi) nie spełnia żadnego z powyższych warunków, wówczas pozostawiamy zmienną c bez zmian.
+    Całkę obliczamy jako Pprostokątac/n (1.5p)

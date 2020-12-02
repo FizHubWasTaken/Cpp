@@ -1,0 +1,9 @@
+Proszę zaimplementować trzy sposoby sortowania
+bąbelkowe:
+proszę napisać funkcję przyjmującą jako parametr tablicę liczb całkowitych; sortowanie odbywa się poprzez wielokrotne przechodzenie przez tablicę i zamianę wartości sąsiednich elementów tablicy, jeżeli są w niewłaściwej kolejności (2.5p)
+przez wstawianie:
+proszę napisać funkcję przyjmującą jako parametr tablicę liczb całkowitych; sortowanie rozpoczynamy od drugiego elementu tablicy i w razie konieczności zamieniamy go miejscem z elementem go poprzedzającym, następnie przechodzimy do kolejnego elementu tablicy i wstawiamy go we właściwe miejsce "przesuwając" większe wartości znajdujące się przed nim (2.5p)
+przez wybieranie:
+proszę napisać funkcję przyjmującą jako parametr tablicę liczb całkowitych; sortowanie polega na znajdowaniu najmniejszej wartości w jeszcze nieposortowanej części tablicy i wstawieniu jej na koniec części posortowanej (2.5p)
+Proszę zaimplementować funkcję konwertującą liczbę zapisaną w systemie dziesiętnym na system binarny, wynik proszę zapisać w tablicy (na liczbie w systemie dziesiętnym wykonujemy operację modulo -> reszty z dzielenia tworzą wartość w systemie binarnym) (1.5p).
+Proszę zaimplementować funkcję konwertującą liczbę zapisaną w systemie binarnym na system dziesiętny (wartości binarne należuy pomnożyć przez odpowiednie potęgi liczby 10) (1p).

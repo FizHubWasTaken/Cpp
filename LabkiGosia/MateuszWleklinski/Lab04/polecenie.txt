@@ -1,0 +1,11 @@
+Proszę utworzyć funkcje:
+
+wypełniającą dwuwymiarową tablicę liczb rzeczywistych wartościami. W pierwszej kolumnie - kolejna liczba naturalna, w drugiej - wartość funkcji przekazanej do funkcji jako parametr dla danej liczby naturalnej bez/z szumem (1p)
+obliczającą i zwracającą wartość średnią liczb w danej kolumnie tablicy liczb rzeczywistych (1p)
+obliczającą wartości współczynników dopasowania prostej do serii punktów (ich współrzędne zapisane są w tablicy dwuwymiarowej - liczba wierszy odpowiada liczbie punktów, dwie kolumny, bo punkty są na płaszczyźnie (x,y)) wraz z ich niepewnościami, metodą najmniejszych kwadratów (potrzebne wzory w pliku mnk.pdf); cztery obliczone wartości muszą być z funkcji "zwrócone" (2.5p)
+sprawdzającą czy dana wartość znajduje się w jednowymiarowej tablicy liczb rzeczywistych metodą naiwną (sprawdzamy wartości w kolejnych komórkach tablicy), funkcja zwraca liczbę iteracji potrzebnych do znalezienia wartości (1p)
+sprawdzającą czy dana wartość znajduje się w jednowymiarowej tablicy liczb rzeczywistych metodą bisekcji - tablica musi być posortowana! (sprawdzamy wartości w środkowej komórce tablicy, jeżeli poszukiwana wartość została znaleziona kończymy, jeżeli nie - zawężamy przedział poszukiwania przesuwając odpowiedni koniec przedziału do jego środka, itd.), funkcja zwraca liczbę iteracji potrzebnych do znalezienia wartości (2.5p)
+main
+tworzymy tablicę dwuwymiarowa Nx2 korzystając z operatora new i wypełnimy ją wartościami korzystając z funkcji z pkt.1, bez szumu dla dowolnej funkcji liniowej i testujemy funkcje z pkt.3 (0.75p)
+j.w. ale z szumem (0.25p)
+tworzymy tablicę jednowymiarową liczb rzeczywistych korzystając z operatora new i wypełnimy ją wartościami losowymi z przedziału [0,100]; proszę sprawdzić ile średnio potrzebnych jest iteracji dla sprawdzenia czy dana wartość znajduje się w tablicy korzystając z metody naiwnej, a ile w przypadku bisekcji (1p)

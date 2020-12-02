@@ -1,0 +1,16 @@
+Proszę zaimplementować
+
+
+klasę reprezentującą wektor w przestrzeni 3D, a w niej
+przeciążony konstruktor: w przypadku braku parametrów tworzymy wektor jednostkowy, w przypadku trzech parametrów inicjalizujemy odpowiednie składowe (1p)
+metodę zwracającą długość wektora (0.5p)
+operator mnożenia wektora przez liczbę (1p)
+operator dodawania dla wektorów (0.5p)
+metodę zwracającą iloczyn skalarny (0.5p)
+metodę zwracającą iloczyn wektorowy (0.5p)
+metodę zwracającą iloczyn mieszany (1p)
+operator strumieniowy wypisujący składowe wektora (1p)
+funkcję obliczającą strumień indukcji magnetycznej Φ=B→⋅S→ (1p)
+funkcję obliczającą siłę Lorentza F→=q(E→+v→×B→) (1p)
+funkcję obliczającą elementarną pracę wykonaną przez siłę Ampere'a δA=Idr→⋅(dl→×B→) (1p)
+funkcję main: proszę przetestować utworzoną klasę i funkcje (1p).

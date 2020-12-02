@@ -1,0 +1,22 @@
+Proszę zaimplementować trzy sposoby wyznaczania liczb pierwszych
+podzielność:
+proszę napisać funkcję przyjmującą jako parametr zakres przedziału, w którym szukamy liczb pierwszych sprawdzając czy liczba jest podzielna przez liczbę mniejszą od pierwiastka z tej liczby i wypisującą na ekran liczby pierwsze z zadanego zakresu (2p)
+sito Eratostenesa:
+proszę napisać funkcję z parametrem jak wcześniej; w tablicy o określonym rozmiarze "wykreślamy" kolejne wielokrotności danej liczby; na ekran proszę wypisać znalezione liczby pierwsze (2p)
+sito liniowe:
+proszę napisać funkcję z parametrem jak wcześniej; a w niej proszę zaimplementować poniższy algorytm:
+        S ← {2, 3, ..., n}
+        p ← 2
+        Dopóki p × p ≤ n:
+          q ← p
+          Dopóki p × q ≤ n:
+            x ← p × q
+            Dopóki x ≤ n:
+              usuń(S,x)
+              x ← p × x
+            q ← następne(S,q)
+          p ← następne(S,p)
+
+proszę wypisać wynik (3p)
+Proszę obliczyć całkę metodą trapezów dla wybranej przez siebie funkcji w granicach [pierwszy parametr, drugi parametr], proszę sprawdzić jak wynik zależy od liczby kroków (dx) (3p)
+Uwaga: dx * (f( x0 ) / 2 + f( x1 ) + f( x2 ) + ... + f( xn-1 ) + f( xn ) / 2)
