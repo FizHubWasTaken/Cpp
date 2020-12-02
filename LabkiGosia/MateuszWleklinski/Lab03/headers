@@ -1,0 +1,22 @@
+#include <cmath>
+#include <iostream>
+
+
+#define N 5
+#define Buffor 20
+
+void print_tab(int *table, int Size=N);
+void reset(int *table, int *orig, int Size=N);
+
+void sort1(int *table, int Size=N);
+void sort2(int *table, int Size=N);
+void sort3(int *table, int Size=N);
+
+
+bool is_sorted(int *table, int Size=N);
+int greatest_index(int *table, int Size);
+
+int binary(int decimal, int *binary);
+int decimal(int *binary, int Size);
+
+void reverse(int *table, int Size);

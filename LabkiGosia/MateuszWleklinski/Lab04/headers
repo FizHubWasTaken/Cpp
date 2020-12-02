@@ -1,0 +1,31 @@
+#include <cmath>
+#include <iostream>
+#include <ctime>
+
+#define N 20
+#define epsilon .001
+
+void deletingTable(double **table);
+
+
+void printTable(double **table);
+void fillTable(double **table, double (*func)(int), bool isExact);
+double myFunction(int x);
+
+double getAverage(double **table, int col);
+double D(double ** table);
+double a(double ** table);
+double b(double ** table);
+double da(double ** table);
+double db(double **table);
+
+void getCoefficients(double ** table);
+
+
+bool is_sorted(double *table);
+void sort(double *table);
+
+int naive(double value, double *table);
+int bisection(double value, double *table);
+
+void getRandomData(double *table);
